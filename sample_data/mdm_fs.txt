@@ -1,0 +1,68 @@
+SAP Master Data Management (MDM) — Functional Specification
+Material Master Preload Validation Rules
+Document Version: 1.0
+================================================================================
+
+This document defines field-level validation rules for SAP Material Master
+preload data during the data migration cutover phase.
+
+--------------------------------------------------------------------------------
+SECTION 1: BASIC DATA (MARA)
+--------------------------------------------------------------------------------
+
+Field: MATNR
+Rule: Cannot be blank
+
+Field: MTART
+Rule: Must equal FERT
+
+Field: MEINS
+Rule: Must be one of: EA, KG, L, M
+
+Field: MATKL
+Rule: Cannot be blank
+
+Field: BRGEW
+Rule: Must be numeric
+
+--------------------------------------------------------------------------------
+SECTION 2: SALES ORGANIZATION DATA (MVKE)
+--------------------------------------------------------------------------------
+
+Field: VKORG
+Rule: Cannot be blank
+
+Field: VTWEG
+Rule: Must equal 10
+
+Field: DWERK
+Rule: Cannot be blank
+
+--------------------------------------------------------------------------------
+SECTION 3: PLANT DATA (MARC)
+--------------------------------------------------------------------------------
+
+Field: WERKS
+Rule: Must be one of: 1000, 2000, 3000
+
+Field: DISMM
+Rule: Must equal PD
+
+Field: BESKZ
+Rule: Must be one of: E, F
+
+--------------------------------------------------------------------------------
+SECTION 4: ADDITIONAL CONSTRAINTS
+--------------------------------------------------------------------------------
+
+Field: MAKTX
+Rule: Maximum length 40
+
+Field: EAN11
+Rule: Must match pattern ^[0-9]{13}$
+
+Field: ERSDA
+Rule: Must be in YYYY-MM-DD format
+
+================================================================================
+END OF DOCUMENT
