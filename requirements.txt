@@ -1,15 +1,25 @@
-# SAP Data Migration Validation Agent — Python Dependencies
+# SAP Data Migration Governance Platform — Python Dependencies
 # Python 3.11+
+
 # Web UI
 streamlit>=1.32.0
-# LangChain & LangGraph
+
+# LangChain & LangGraph (multi-agent orchestration)
 langchain>=0.3.0
 langchain-core>=0.3.0
 langchain-google-genai>=2.0.0
 langgraph>=0.2.0
+
 # Data processing
 pandas>=2.2.0
 openpyxl>=3.1.0
+
+# Database / ORM
+SQLAlchemy>=2.0.0
+
+# Dashboards
+plotly>=5.20.0
+
 # Configuration & validation
 python-dotenv>=1.0.0
 pydantic>=2.0.0

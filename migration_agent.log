@@ -740,3 +740,126 @@ Traceback (most recent call last):
     raise ChatGoogleGenerativeAIError(msg) from e
 langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Error calling model 'gemini-2.5-flash' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
 2026-06-17 12:31:44,202 | INFO | graph | Pipeline completed
+2026-06-18 01:45:45,029 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:03,013 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:03,062 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:46:07,527 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:07,534 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:46:08,912 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:08,919 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:46:09,645 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:09,652 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:46:10,049 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:10,057 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:46:13,757 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:13,769 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:46:14,725 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:14,730 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:46:15,305 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:15,311 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:46:15,547 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:15,551 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:46:32,869 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:32,875 | WARNING | auth.auth_service | Failed login attempt for 'consultant'
+2026-06-18 01:46:34,076 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:34,084 | WARNING | auth.auth_service | Failed login attempt for 'consultant'
+2026-06-18 01:46:34,709 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:34,714 | WARNING | auth.auth_service | Failed login attempt for 'consultant'
+2026-06-18 01:46:34,914 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:34,919 | WARNING | auth.auth_service | Failed login attempt for 'consultant'
+2026-06-18 01:46:35,113 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:35,124 | WARNING | auth.auth_service | Failed login attempt for 'consultant'
+2026-06-18 01:46:35,338 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:35,343 | WARNING | auth.auth_service | Failed login attempt for 'consultant'
+2026-06-18 01:46:35,568 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:35,574 | WARNING | auth.auth_service | Failed login attempt for 'consultant'
+2026-06-18 01:46:37,171 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:57,818 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:46:57,828 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:47:00,878 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:47:14,631 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:47:14,640 | WARNING | auth.auth_service | Failed login attempt for 'consultant'
+2026-06-18 01:47:34,509 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:47:34,517 | WARNING | auth.auth_service | Failed login attempt for 'analyst'
+2026-06-18 01:48:12,328 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:48:12,336 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:48:14,130 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:48:14,136 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:48:14,321 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:48:14,325 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:48:14,514 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:48:14,521 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:48:14,736 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:48:14,746 | WARNING | auth.auth_service | Failed login attempt for 'admin'
+2026-06-18 01:50:33,175 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:50:45,358 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:50:45,574 | INFO | auth.auth_service | User 'admin' authenticated as Admin
+2026-06-18 01:50:45,593 | INFO | services.audit_service | AUDIT | admin | LOGIN | 
+2026-06-18 01:50:45,814 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:50:53,634 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:51:01,810 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:51:03,170 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:51:06,854 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:51:17,671 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:51:21,046 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:51:22,113 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:51:23,601 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:51:24,610 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:51:59,282 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:51:59,308 | INFO | services.audit_service | AUDIT | admin | LOGOUT | 
+2026-06-18 01:51:59,484 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:52:09,813 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:52:10,048 | INFO | auth.auth_service | User 'analyst' authenticated as Business Analyst
+2026-06-18 01:52:10,062 | INFO | services.audit_service | AUDIT | analyst | LOGIN | 
+2026-06-18 01:52:10,271 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:52:17,560 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:52:21,265 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:52:25,009 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:52:46,107 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:52:48,955 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:52:48,972 | INFO | services.audit_service | AUDIT | analyst | LOGOUT | 
+2026-06-18 01:52:49,121 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:53:02,562 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:53:02,720 | INFO | auth.auth_service | User 'consultant' authenticated as Functional Consultant
+2026-06-18 01:53:02,730 | INFO | services.audit_service | AUDIT | consultant | LOGIN | 
+2026-06-18 01:53:02,842 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:53:08,771 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:53:10,091 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:53:11,708 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:53:13,105 | INFO | graph | Running FC pipeline
+2026-06-18 01:53:13,965 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-06-18 01:53:19,193 | INFO | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-18 01:53:19,207 | INFO | agents.rule_extractor | Extracted 14 rules via Gemini
+2026-06-18 01:53:19,221 | INFO | agents.validator | Validating 5 records against 14 rules (material column: Material)
+2026-06-18 01:53:19,240 | INFO | agents.validator | Validation complete: 5 total, 3 passed, 2 failed
+2026-06-18 01:53:19,381 | INFO | agents.report_generator | Validation report written to K:\a\Agent\Agent\outputs\Validation_Report.xlsx
+2026-06-18 01:53:20,025 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-06-18 01:53:27,415 | INFO | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-18 01:53:27,417 | INFO | agents.email_generator | Email draft generated via Gemini
+2026-06-18 01:53:27,448 | INFO | services.audit_service | AUDIT | consultant | RUN_VALIDATION | ad-hoc (FC workspace)
+2026-06-18 01:53:51,229 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:53:51,246 | INFO | services.audit_service | AUDIT | consultant | LOGOUT | 
+2026-06-18 01:53:51,435 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:53:57,336 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:53:57,509 | INFO | auth.auth_service | User 'admin' authenticated as Admin
+2026-06-18 01:53:57,520 | INFO | services.audit_service | AUDIT | admin | LOGIN | 
+2026-06-18 01:53:57,657 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:54:05,991 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:57:53,614 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:58:01,171 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:58:01,358 | INFO | auth.auth_service | User 'admin' authenticated as Admin
+2026-06-18 01:58:01,366 | INFO | services.audit_service | AUDIT | admin | LOGIN | 
+2026-06-18 01:58:01,528 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:58:05,426 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 01:59:59,023 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 02:00:04,617 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 02:00:04,784 | INFO | auth.auth_service | User 'admin' authenticated as Admin
+2026-06-18 02:00:04,791 | INFO | services.audit_service | AUDIT | admin | LOGIN | 
+2026-06-18 02:00:04,923 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 02:00:08,464 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 02:00:31,427 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 02:00:35,847 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 02:00:36,096 | INFO | auth.auth_service | User 'admin' authenticated as Admin
+2026-06-18 02:00:36,105 | INFO | services.audit_service | AUDIT | admin | LOGIN | 
+2026-06-18 02:00:36,223 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
+2026-06-18 02:00:38,961 | INFO | database.session | Database initialized at sqlite:///K:/a/Agent/Agent/data/governance.db
